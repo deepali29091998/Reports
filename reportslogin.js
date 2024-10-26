@@ -5,6 +5,8 @@ const {Actions} = require('selenium-webdriver');
 async function openManagePage() {
     // Initialize the Chrome browser
     let driver = await new Builder().forBrowser('chrome').build();
+	
+	// hello
     
     // Open Manage website
     await driver.get('https://manage.fieldassist.in/');
